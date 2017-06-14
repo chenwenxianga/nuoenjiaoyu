@@ -7,38 +7,170 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <title>诺恩教育</title>
-	<style>
-		*{
-		  margin: 0;
-		}
-		img{
-			position:center 0;
-			}
-		.nav{
-			 margin: -6px auto;
-			 height: 160px;
-			 border: 1px solid red;
-		}
-		.nav ul{
-				list-style: none;
-		}
-		.nav ul li{
-				   float:left;
-				   width:190px;
+	<!-- 引入外部的CSS文件
+		href 后面的值是路径
+		rel="stylesheet" 说明是一个样式表
+	-->
+	<link href="css/style.css" rel="stylesheet" />
 
-		}
+	<style>
 	</style>
  </head>
  <body>
-	<img src="images/1.jpg"/>
+	<div class="img">
+		<img src="images/1.jpg"/>
+	</div>
 	<div class="nav">
 		<ul>
-			<li><a href="#">首页</a></li>
-			<li><a href="#">精品课程</a></li>
-			<li><a href="#">名师团队</a></li>
-			<li><a href="#">联系我们</a></li>
-			<li><a href="#">关于诺恩</a></li>
+			<li class="sy"><a href="">首页</a></li>
+			<li class="jpkc"><a href="">精品课程</a></li>
+			<li class="mstd"><a href="">名师团队</a></li>
+			<li class="lxwm"><a href="">联系我们</a></li>
+			<li class="gyne"><a href="">关于诺恩</a></li>
 		</ul>
+	</div>
+	<div class="w">
+		<div class="box">
+			<h2>课程推荐</h2>
+			<table border="1" width="600px" height="260px" cellspacing="0">
+				<tr>
+					<td class="kc">课程</td> <!--rowspan行合并,colspan列合并。-->
+					<td class="kc">上课地点</td>
+					<td class="kc">开课日期</td>
+					<td class="kc">学费</td>
+					<td class="kc">咨询</td>
+				</tr>
+				<tr>
+					<td>法语V2提高班</td>
+					<td>仁和春天光华店</td>
+					<td>03月23日</td>
+					<td>25/小时</td>
+					<td>咨询</td>
+				</tr>
+				<tr>
+					<td>周末法语零基础班</td>
+					<td>仁和春天光华店</td>
+					<td>03月23日</td>
+					<td>25/小时</td>
+					<td>咨询</td>
+				</tr>
+				<tr>
+					<td>法语V2提高班</td>
+					<td>仁和春天光华店</td>
+					<td>03月23日</td>
+					<td>25/小时</td>
+					<td>咨询</td>
+				</tr>
+				<tr>
+					<td>法语V2提高班</td>
+					<td>仁和春天光华店</td>
+					<td>03月23日</td>
+					<td>25/小时</td>
+					<td>咨询</td>
+				</tr>
+				<tr>
+					<td>法语V2提高班</td>
+					<td>仁和春天光华店</td>
+					<td>03月23日</td>
+					<td>25/小时</td>
+					<td>咨询</td>
+				</tr>
+				<tr>
+					<td>法语V2提高班</td>
+					<td>仁和春天光华店</td>
+					<td>03月23日</td>
+					<td>25/小时</td>
+					<td>咨询</td>
+				</tr>
+			</table>
+		</div>
+		<div class="msjs">
+			<div class="jpg">
+				<img src="images/2.jpg">
+				<div class="laoshi">
+					<p style="font-size:12px"><b>邓文婷老师</b></p>
+					<p class="yy">英语老师</p>
+					<p style="font-size:10px">新西兰名校毕业，教学经验丰富，对英语......</p>
+				</div>
+			</div>
+			<div class="jpg">
+				<img src="images/3.jpg">
+				<div class="laoshi">
+					<p style="font-size:12px"><b>舒晨丽老师</b></p>
+					<p class="sx">数学老师</p>
+					<p style="font-size:10px">新西兰名校毕业，教学经验丰富，对数学......</p>
+				</div>
+			</div>
+			<div class="jpg">
+				<img src="images/4.jpg">
+				<div class="laoshi">
+					<p style="font-size:12px"><b>冯春杰老师</b></p>
+					<p class="fy">法语老师</p>
+					<p style="font-size:10px">新西兰名校毕业，教学经验丰富，对法语......</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jzqj">
+		<h1>精准求精&nbsp;追求完美</h1>
+		<p>我们用心服务</p>
+	</div>
+	<div class="picuture">
+		<img src="images/5.jpg" />
+		<div class="middle">
+			<h2 class="nedt">诺恩动态</h2>
+			<ul id="ul">
+				<li class="wei1"><div class="wei2">2000年成立武汉环球英语培训学校，2006年9月获得软银赛富数亿投资</div></li>
+				<li class="wei1"><div class="wei2">组成环球天下教育科技Global Education & Technology Group,</div></li>
+				<li class="wei1"><div class="wei2">拥有在全球56个城市从事外语和职业教育培训的连锁学校。作为国内领军的连锁外语培训机构，</div></li>
+				<li class="wei1"><div class="wei2">被评为全国十大知名学校，荣誉2006中国领军培训机构。</div></li>
+			</ul>
+			<p class="bottom">查看全部动态</p>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_1">
+			<h2>办学理念</h2>
+			<ul>
+				<li><div class="wei2">2000年成立武汉环球英语培训学校，2006年9月获得软银赛富数亿投资</div></li>
+				<li><div class="wei2">拥有在全球56个城市从事外语和职业教育培训的连锁学校。作为国内领军的连锁外语培训机构，</div></li>
+				<li><div class="wei2">被评为全国十大知名学校，荣誉2006中国领军培训机构。</div></li>
+				<li><div class="wei2">组成环球天下教育科技Global Education&Tachnology Group,</div></li>
+			</ul>
+			<p class="ckdt">查看全部动态</p>
+		</div>
+		<div class="footer_2">
+			<img src="images/6.jpg" />
+		</div>
+	</div>
+	<div class="footer_3">
+		<div class="footer_4">
+			<img src="images/7.jpg" />
+		</div>
+		<div class="footer_5">
+			<h2>企业文化</h2>
+			<ul>
+				<li><div class="wei2">2002年成立武汉环球英语培训学校，</div></li>
+				<li><div class="wei2">组成环球天下教育科技Global</div></li>
+				<li><div class="wei2">56个城市从事外语和职业教育培训</div></li>
+				<li><div class="wei2">被评为全国十大知名学校;荣誉2006中国领军培训机构。</div></li>
+			</ul>
+			<p>查看全部信息</p>
+		</div>
+	</div>
+	<div class="down">
+		<div id="gywm">
+			<ul>
+				<li><div class="down_1">关于我们|</div></li>
+				<li><div class="down_1">诺恩招聘|</div></li>
+				<li><div class="down_1">联系我们|</div></li>
+				<li class="down_2"><div>关于我们</div></li>
+			</ul>
+		</div>
+	</div>
+	<div class="laster">
+		<p>Copyright 2000-2015 诺恩教育 www.nuoen.net All Rights Reserved</p>
+		<p>蜀ICP备05000568号 教外综资认字[2000]136号 川公境准字[2010]2714号</p>
 	</div>
  </body>
 </html>
